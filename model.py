@@ -12,5 +12,4 @@ class LinearRegression:
         y_hat = self.predic(x)
         error= y-y_hat
         error2= error**2
-        return np.mean(error2
-                       )
+        return  np.mean(error2)
